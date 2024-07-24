@@ -15,7 +15,7 @@ open class PrimaryButton: UIButton {
     public init() {
         super.init(frame: .zero)
 
-        cornerRadius = Self.height / 2
+        cornerRadius = 0 // Self.height / 2
         layer.cornerCurve = .continuous
 
         titleLabel?.font = .headline2
